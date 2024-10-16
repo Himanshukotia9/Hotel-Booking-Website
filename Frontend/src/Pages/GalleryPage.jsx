@@ -1,24 +1,7 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
-// Example images
-const images = [
-  { id: 1, src: "/landscape1.webp", alt: "Image 1" },
-  { id: 2, src: "/landscape2.webp", alt: "Image 2" },
-  { id: 3, src: "/landscape3.webp", alt: "Image 3" },
-  { id: 4, src: "/landscape4.webp", alt: "Image 4" },
-  { id: 5, src: "/landscape5.webp", alt: "Image 5" },
-  { id: 6, src: "/landscape6.jpg", alt: "Image 6" },
-  { id: 7, src: "/sliderImg1.jpg", alt: "Image 7" },
-  { id: 8, src: "/sliderImg2.jpg", alt: "Image 8" },
-  { id: 9, src: "/sliderImg3.jpg", alt: "Image 9" },
-  { id: 10, src: "/sliderImg4.jpg", alt: "Image 10" },
-  { id: 11, src: "/sliderImg5.jpg", alt: "Image 11" },
-  { id: 12, src: "/sliderImg6.jpg", alt: "Image 12" },
-  { id: 13, src: "/slider2-images/parking.jpg", alt: "Image 13" },
-  { id: 14, src: "/slider2-images/service.jpg", alt: "Image 14" },
-];
+import { images } from '../data';
 
 export default function GalleryPage() {
   const [selectedIndex, setSelectedIndex] = useState(null);

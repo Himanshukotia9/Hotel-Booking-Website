@@ -14,24 +14,16 @@ export function FooterComp() {
               <Typography variant="h6" color="blue-gray" className="mb-3 font-semibold opacity-60 underline underline-offset-2">Quick Links</Typography>
               <div className="uppercase">
                 <li>
-                  <Link to={"/"}>
-                    <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Home</Typography>
-                  </Link>
+                <Typography as="a" href="/" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Home</Typography>
                 </li>
                 <li>
-                  <Link to={"/rooms"}>
-                    <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Rooms</Typography>
-                  </Link>
+                <Typography as="a" href="/rooms" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Rooms</Typography>
                 </li>
                 <li>
-                  <Link to={"/gallery"}>
-                    <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Gallery</Typography>
-                  </Link>
+                <Typography as="a" href="/gallery"  color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Gallery</Typography>
                 </li>
                 <li>
-                  <Link to={"/booknow"}>
-                    <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Book Now</Typography>
-                  </Link>
+                <Typography as="a" href="/booknow" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Book Now</Typography>
                 </li>
               </div>
             </ul>
@@ -39,24 +31,16 @@ export function FooterComp() {
               <Typography variant="h6" color="blue-gray" className="mb-3 font-semibold opacity-60 underline underline-offset-2">Company</Typography>
               <div className="uppercase">
                 <li>
-                  <Link to={"/"}>
-                    <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Contact Us</Typography>
-                  </Link>
+                  <Typography as="a" href="/contact-us" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Contact Us</Typography>
                 </li>
                 <li>
-                  <Link to={"/"}>
-                    <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Privacy Policy</Typography>
-                  </Link>
+                  <Typography as="a" href="/privacy-policy" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Privacy Policy</Typography>
                 </li>
                 <li>
-                  <Link to={"/"}>
-                    <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Terms & Conditions</Typography>
-                  </Link>
+                  <Typography as="a" href="/terms-conditions" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Terms & Conditions</Typography>
                 </li>
                 <li>
-                  <Link to={"/"}>
-                    <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Cancellation & Refund Policy</Typography>
-                  </Link>
+                  <Typography as="a" href="/refund-policy" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Cancellation & Refund Policy</Typography>
                 </li>
               </div>
             </ul>

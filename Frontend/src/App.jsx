@@ -8,6 +8,10 @@ import ContactUsPage from './Pages/ContactUsPage'
 import BookNowPage from './Pages/BookNowPage'
 import NavbarComp from './Components/NavbarComp'
 import { FooterComp } from './Components/FooterComp'
+import PrivacyPolicy from './Pages/PrivacyPolicy'
+import PageNotFound from './Components/PageNotFound'
+import Terms from './Pages/Terms'
+import RefundPage from './Pages/RefundPage'
 
 export default function App() {
   return (
@@ -18,9 +22,12 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/rooms" element={<RoomsPage/>} />
           <Route path="/gallery" element={<GalleryPage/>} />
-          <Route path="/contactus" element={<ContactUsPage/>} />
-          <Route path="/aboutus" element={<AboutUsPage/>} />
-          <Route path="/booknow" element={<BookNowPage/>} />
+          <Route path="/contact-us" element={<ContactUsPage/>} />
+          <Route path="/about-us" element={<AboutUsPage/>} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+          <Route path="/terms-conditions" element={<Terms/>} />
+          <Route path="/refund-policy" element={<RefundPage/>} />
+          <Route path="*" element={<PageNotFound/>} />
         </Routes>
       </div>
       <FooterComp/>

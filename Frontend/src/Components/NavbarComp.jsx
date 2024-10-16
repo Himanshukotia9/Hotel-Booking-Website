@@ -12,11 +12,11 @@ import { Link } from 'react-router-dom';
   
   function NavItem({ label, link }) {
     return (
-        <Link to={link}>
+        <a href={link}>
           <Typography as="li" color="blue-gray" className="py-1 px-4 md:ml-0 text-lg font-bold font-Nunito hover:bg-black hover:text-white hover:rounded-full">
             {label}
           </Typography>
-        </Link>
+        </a>
     );
   }
   
@@ -32,8 +32,8 @@ import { Link } from 'react-router-dom';
   function NavListRight() {
     return (
       <ul className="mb-4 mt-2 flex flex-col gap-3 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
-        <NavItem label="Contact Us" link="/contactus" />
-        <NavItem label="About Us" link="/aboutus" />
+        <NavItem label="Contact Us" link="/contact-us" />
+        <NavItem label="About Us" link="/about-us" />
         <NavItem label="Book Now" link="/booknow" />
       </ul>
     );

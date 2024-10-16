@@ -16,6 +16,8 @@ export default withMT({
     },
     extend: {
       backgroundImage: {
+        'RoomsBanner': "url('/RoomsBanner.webp')",
+        'aboutBanner': "url('/AboutBanner.jpg')",
         'contactBanner': "url('/ContactBanner.jpg')",
         'landscape3': "url('/landscape3.webp')",
         'landscape4': "url('/landscape4.webp')",
@@ -27,7 +29,6 @@ export default withMT({
         'carousel5': "url('/slider2-images/food.jpg')",
         'carousel6': "url('/slider2-images/storage.jpg')",
         'landscape6': "url('/landscape6.jpg')",
-        'RoomsBanner': "url('/RoomsBanner.webp')",
       },
       columns: {
         '1': '1',

@@ -20,13 +20,6 @@ body {
   padding: 0;
 }
 
-/* .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
 ::-webkit-scrollbar{
   background-color: transparent;
   width: 0.5rem;
@@ -35,4 +28,10 @@ body {
 ::-webkit-scrollbar-thumb{
   background-color: #c7c7c7;
   border-radius: 1rem;
+}
+
+@media (min-width: 640px){
+    .NotFoundImg{
+        grid-area: 1/1/3/2;
+    } 
 }
