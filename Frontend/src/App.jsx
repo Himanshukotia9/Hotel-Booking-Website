@@ -12,11 +12,13 @@ import PrivacyPolicy from './Pages/PrivacyPolicy'
 import PageNotFound from './Components/PageNotFound'
 import Terms from './Pages/Terms'
 import RefundPage from './Pages/RefundPage'
+import ScrollToTop from './Components/ScrollToTop'
 
 export default function App() {
   return (
     <BrowserRouter>
     <NavbarComp/>
+    <ScrollToTop/>
       <div className=''>
         <Routes>
           <Route path="/" element={<HomePage />} />
