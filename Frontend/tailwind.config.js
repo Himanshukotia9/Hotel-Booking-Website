@@ -9,7 +9,6 @@ export default withMT({
   ],
   theme: {
     fontFamily:{
-      Nunito: "'Nunito', sans-serif",
       Noto: "'Noto Sans', sans-serif",
       Kaushan: "'Kaushan Script', cursive",
       Cutive: "'Cutive Mono', monospace",

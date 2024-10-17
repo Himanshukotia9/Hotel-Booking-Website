@@ -36,6 +36,7 @@ export default function GalleryPage() {
             <motion.img
               src={image.src}
               alt={image.alt}
+              loading='lazy'
               className="w-full h-auto object-cover rounded-lg"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
