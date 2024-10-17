@@ -56,7 +56,7 @@ export default function Carousel() {
                 id='image-section'
             >
                 {images.map((image,index) => {
-                    return <SwiperSlide key={index} className='flex justify-center items-center text-center text-lg bg-white'><img src={image} alt={`slider ${index}`} loading='lazy' className='block w-full h-full object-cover'/></SwiperSlide>
+                    return <SwiperSlide key={index} className='flex justify-center items-center text-center text-lg bg-white'><img src={image} alt={`slider ${index}`} className='block w-full h-full object-cover'/></SwiperSlide>
                 })}
             </Swiper>
         </div>
