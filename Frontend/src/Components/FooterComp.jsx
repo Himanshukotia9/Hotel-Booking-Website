@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
+import { links } from "../data";
 
  
 const currentYear = new Date().getFullYear();
@@ -10,40 +11,20 @@ export function FooterComp() {
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid py-8 justify-between">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between gap-4">
-            <ul>
-              <Typography variant="h6" color="blue-gray" className="mb-3 font-semibold opacity-60 underline underline-offset-2">Quick Links</Typography>
-              <div className="uppercase">
-                <li>
-                <Typography as="a" href="/" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Home</Typography>
-                </li>
-                <li>
-                <Typography as="a" href="/rooms" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Rooms</Typography>
-                </li>
-                <li>
-                <Typography as="a" href="/gallery"  color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Gallery</Typography>
-                </li>
-                <li>
-                <Typography as="a" href="/booknow" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Book Now</Typography>
-                </li>
-              </div>
-            </ul>
-            <ul>
-              <Typography variant="h6" color="blue-gray" className="mb-3 font-semibold opacity-60 underline underline-offset-2">Company</Typography>
-              <div className="uppercase">
-                <li>
-                  <Typography as="a" href="/contact-us" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Contact Us</Typography>
-                </li>
-                <li>
-                  <Typography as="a" href="/privacy-policy" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Privacy Policy</Typography>
-                </li>
-                <li>
-                  <Typography as="a" href="/terms-conditions" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Terms & Conditions</Typography>
-                </li>
-                <li>
-                  <Typography as="a" href="/refund-policy" color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">Cancellation & Refund Policy</Typography>
-                </li>
-              </div>
-            </ul>
+            {links.map(({title, items}) => (
+              <ul>
+                <Typography variant="h6" color="blue-gray" className="mb-3 font-semibold opacity-60 underline underline-offset-2">{title}</Typography>
+                <div className="uppercase">
+                  {items.map(({link, path, index}) => (
+                    <Link key={index} to={path}>
+                      <li>
+                        <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">{link}</Typography>
+                      </li>
+                    </Link>
+                  ))}
+                </div>
+              </ul>
+            ))}
             <ul>
               <Typography variant="h6" color="blue-gray" className="mb-3 font-semibold opacity-60 underline underline-offset-2">Connect With Us</Typography>
               <div className="">

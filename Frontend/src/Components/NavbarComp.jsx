@@ -12,11 +12,11 @@ import { Link } from 'react-router-dom';
   
   function NavItem({ label, link }) {
     return (
-        <a href={link}>
+        <Link to={link}>
           <Typography as="li" color="blue-gray" className="py-1 px-4 md:ml-0 text-lg font-bold font-Nunito hover:bg-black hover:text-white hover:rounded-full">
             {label}
           </Typography>
-        </a>
+        </Link>
     );
   }
   

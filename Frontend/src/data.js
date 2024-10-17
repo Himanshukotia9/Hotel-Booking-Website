@@ -180,3 +180,49 @@ export const refund = [
     ],
     },
 ]
+
+// for footer component
+export const links = [
+  {
+    title: "Quick Links",
+    items: [
+      {
+        link: "Home",
+        path: "/",
+      },
+      {
+        link: "Rooms",
+        path: "/rooms",
+      },
+      {
+        link: "Gallery",
+        path: "/gallery",
+      },
+      {
+        link: "Book Now",
+        path: "/book-now",
+      },
+    ],
+  },
+  {
+    title: "Company",
+    items: [
+      {
+        link: "Contact Us",
+        path: "/contact-us",
+      },
+      {
+        link: "Privacy Policy",
+        path: "/privacy-policy",
+      },
+      {
+        link: "Terms & Conditions",
+        path: "/terms-conditions",
+      },
+      {
+        link: "Cancellation & Refund Policy",
+        path: "/refund-policy",
+      },
+    ],
+  },
+];
