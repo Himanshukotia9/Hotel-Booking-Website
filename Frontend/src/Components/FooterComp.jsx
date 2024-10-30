@@ -41,7 +41,7 @@ export function FooterComp() {
             </ul>
             <ul>
               <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24899.561039827993!2d78.09429288320315!3d30.454131389201283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908dbb008c00ee5%3A0xee991ea46d01ea33!2sDEVDAR%20ESTATE!5e1!3m2!1sen!2sin!4v1728565542081!5m2!1sen!2sin" width="300" height="200" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Property location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24899.561039827993!2d78.09429288320315!3d30.454131389201283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908dbb008c00ee5%3A0xee991ea46d01ea33!2sDEVDAR%20ESTATE!5e1!3m2!1sen!2sin!4v1728565542081!5m2!1sen!2sin" width="300" height="200" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </ul>
           </div>
