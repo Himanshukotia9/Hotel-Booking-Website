@@ -1,6 +1,6 @@
 import React from 'react'
-import landscape1 from '/landscape1.webp'
-import landscape2 from '/landscape2.webp'
+import landscape1 from '/landscape1.jpg'
+import landscape2 from '/landscape2.jpg'
 
 export default function WelcomeBanner() {
   return (

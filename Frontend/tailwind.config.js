@@ -15,12 +15,12 @@ export default withMT({
     },
     extend: {
       backgroundImage: {
-        'RoomsBanner': "url('/RoomsBanner.webp')",
+        'RoomsBanner': "url('/RoomsBanner.jpg')",
         'aboutBanner': "url('/AboutBanner.jpg')",
         'contactBanner': "url('/ContactBanner.jpg')",
-        'landscape3': "url('/landscape3.webp')",
-        'landscape4': "url('/landscape4.webp')",
-        'landscape5': "url('/landscape5.webp')",
+        'landscape3': "url('/landscape3.jpg')",
+        'landscape4': "url('/landscape4.jpg')",
+        'landscape5': "url('/landscape5.jpg')",
         'carousel1': "url('/slider2-images/balcony.jpg')",
         'carousel2': "url('/slider2-images/parking.jpg')",
         'carousel3': "url('/slider2-images/service.jpg')",
