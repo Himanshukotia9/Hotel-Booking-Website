@@ -86,12 +86,13 @@ export default function NavbarComp() {
           variant="text"
           color="blue-gray"
           onClick={handleOpen}
+          aria-label="Menu Button"
           className="ml-auto inline-block text-blue-gray-900 lg:hidden"
         >
           {open ? (
-            <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+            <XMarkIcon aria-label="Close menu" className="h-6 w-6" strokeWidth={2} />
           ) : (
-            <Bars3Icon className="h-6 w-6" strokeWidth={2} />
+            <Bars3Icon aria-label="open menu" className="h-6 w-6" strokeWidth={2} />
           )}
         </IconButton>
       </div>
