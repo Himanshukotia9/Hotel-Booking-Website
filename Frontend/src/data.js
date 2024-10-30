@@ -187,18 +187,22 @@ export const links = [
     title: "Quick Links",
     items: [
       {
+        index: 1,
         link: "Home",
         path: "/",
       },
       {
+        index: 2,
         link: "Rooms",
         path: "/rooms",
       },
       {
+        index: 3,
         link: "Gallery",
         path: "/gallery",
       },
       {
+        index: 4,
         link: "Book Now",
         path: "/book-now",
       },
@@ -208,18 +212,22 @@ export const links = [
     title: "Company",
     items: [
       {
+        index: 5,
         link: "Contact Us",
         path: "/contact-us",
       },
       {
+        index: 6,
         link: "Privacy Policy",
         path: "/privacy-policy",
       },
       {
+        index: 7,
         link: "Terms & Conditions",
         path: "/terms-conditions",
       },
       {
+        index: 8,
         link: "Cancellation & Refund Policy",
         path: "/refund-policy",
       },

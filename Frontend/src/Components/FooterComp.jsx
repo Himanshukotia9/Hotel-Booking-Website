@@ -12,15 +12,15 @@ export function FooterComp() {
         <div className="grid py-8 justify-between">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between gap-4">
             {links.map(({title, items}) => (
-              <ul>
+              <ul key={title}>
                 <Typography variant="h6" color="blue-gray" className="mb-3 font-semibold opacity-60 underline underline-offset-2">{title}</Typography>
                 <div className="uppercase">
                   {items.map(({link, path, index}) => (
-                    <Link key={index} to={path}>
-                      <li>
+                  <li key={index}>
+                    <Link to={path}>
                         <Typography color="gray" className="py-1.5 font-normal transition-colors hover:text-blue-gray-900">{link}</Typography>
-                      </li>
                     </Link>
+                  </li>
                   ))}
                 </div>
               </ul>
