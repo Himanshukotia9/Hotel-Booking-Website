@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PageBanner({title, text, img, height}) {
   return (
-    <div className={`relative ${height} overflow-hidden bg-gray-900`}>
+    <div className={`relative ${height} w-auto overflow-hidden bg-gray-900`}>
         {/* Background image */}
         <div className={`${img} absolute inset-0 w-full h-full bg-fixed bg-center bg-cover`}></div>
       {/* Black gradient overlay */}
