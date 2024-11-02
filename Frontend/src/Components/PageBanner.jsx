@@ -4,7 +4,7 @@ export default function PageBanner({title, text, img, height}) {
   return (
     <div className={`relative ${height} w-auto overflow-hidden bg-gray-900`}>
         {/* Background image */}
-        <div className={`${img} absolute inset-0 w-full h-full bg-fixed bg-center bg-cover`}></div>
+        <div className={`${img} absolute inset-0 w-full h-full bg-fixed bg-center bg-cover object-cover`}></div>
       {/* Black gradient overlay */}
       <div className="absolute inset-0 bg-black opacity-40"></div>
 

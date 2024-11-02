@@ -1,3 +1,4 @@
+// RoomsPage.jsx
 import React from 'react'
 import { Typography } from "@material-tailwind/react";
 import Rooms from '../Components/Rooms';
