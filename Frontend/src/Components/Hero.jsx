@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Hero({bgimg, title, description}) {
   return (
@@ -7,7 +8,7 @@ export default function Hero({bgimg, title, description}) {
       <div className='relative z-10 flex flex-col items-start md:gap-4 transition-all duration-300 mx-2'>
         <h2 className='text-2xl font-bold md:text-5xl md:font-normal'>{title}</h2>
         <p className='text-lg md:text-xl pb-4'>{description}</p>
-        <button type="button" className="text-white bg-transparent border border-white hover:bg-white hover:text-black font-bold rounded-full text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Book Now</button>
+        <Link><button type="button" className="text-white bg-transparent border border-white hover:bg-white hover:text-black font-bold rounded-full text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700">Book Now</button></Link>
       </div>
     </div>
   )
