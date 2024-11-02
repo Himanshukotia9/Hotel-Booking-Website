@@ -10,7 +10,7 @@ export default function RoomsPage() {
     <div className="">
         <PageBanner 
             img={'bg-RoomsBanner'}
-            height={'h-screen'}
+            height={'h-[80vh] md:h-screen'}
             title={"Welcome to The Pink Magnolia Cottage"}
             text={"Experience serene luxury in the heart of Mussoorie's hills."}
         />
