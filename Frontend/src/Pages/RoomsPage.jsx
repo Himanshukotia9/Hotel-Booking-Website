@@ -14,6 +14,11 @@ export default function RoomsPage() {
             title={"Welcome to The Pink Magnolia Cottage"}
             text={"Experience serene luxury in the heart of Mussoorie's hills."}
         />
+        <PageBanner 
+            title={'Comfort that makes you feel "At Home"'}
+            img={"bg-aboutBanner"}
+            height={'h-[80vh]'}
+        />
         <div className='py-12 mx-4'>
             {/* <h1 className="text-3xl md:text-5xl font-bold font-serif text-blue-gray-800 text-center mb-12">Check for Room Availability</h1> */}
             <Typography
