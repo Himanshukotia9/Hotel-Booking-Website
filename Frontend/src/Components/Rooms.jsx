@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Rooms({ title, subTitle, description, imageUrl, reverse }) {
   return (
@@ -21,7 +22,7 @@ export default function Rooms({ title, subTitle, description, imageUrl, reverse 
         <h2 className="text-2xl font-bold mb-4 text-blue-gray-800 font-Cutive">{title}</h2>
         <h4 className='font-semibold text-gray-800 font-serif mb-2'>{subTitle}</h4>
         <p className="text-gray-700 font-sans">{description}</p>
-        <button type="button" className="text-white bg-brown-700 hover:bg-brown-800 font-medium rounded-md text-base px-4 py-2 mt-4">Book Now</button>
+        <Link to={'/book-now'}><button type="button" className="text-white bg-brown-700 hover:bg-brown-800 font-medium rounded-md text-base px-4 py-2 mt-4">Book Now</button></Link>
       </div>
     </div>
   )

@@ -1,11 +1,11 @@
 // data.js
 // for gallery Page
 export const images = [
-    { id: 1, src: "/landscape1.webp", alt: "Image 1" },
-    { id: 2, src: "/landscape2.webp", alt: "Image 2" },
-    { id: 3, src: "/landscape3.webp", alt: "Image 3" },
-    { id: 4, src: "/landscape4.webp", alt: "Image 4" },
-    { id: 5, src: "/landscape5.webp", alt: "Image 5" },
+    { id: 1, src: "/landscape1.jpg", alt: "Image 1" },
+    { id: 2, src: "/landscape2.jpg", alt: "Image 2" },
+    { id: 3, src: "/landscape3.jpg", alt: "Image 3" },
+    { id: 4, src: "/landscape4.jpg", alt: "Image 4" },
+    { id: 5, src: "/landscape5.jpg", alt: "Image 5" },
     { id: 6, src: "/landscape6.jpg", alt: "Image 6" },
     { id: 7, src: "/sliderImg1.jpg", alt: "Image 7" },
     { id: 8, src: "/sliderImg2.jpg", alt: "Image 8" },
