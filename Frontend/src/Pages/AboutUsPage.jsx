@@ -2,7 +2,6 @@ import React from 'react'
 import PageBanner from '../Components/PageBanner'
 import { Typography } from "@material-tailwind/react";
 import Rooms from '../Components/Rooms';
-import PageBanner from '../Components/PageBanner';
 import ListComp from '../Components/ListComp';
 import { cardsData, roomPolicy } from '../data';
 
