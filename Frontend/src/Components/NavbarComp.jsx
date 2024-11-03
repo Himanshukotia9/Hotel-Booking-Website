@@ -12,8 +12,8 @@ import { Link } from 'react-router-dom';
   
   function NavItem({ label, link, setOpen }) {
     return (
-        <Link to={link} onClick={() => setOpen(false)}>
-          <Typography as="li" color="blue-gray" className="py-1 px-4 md:ml-0 text-lg font-bold font-sans hover:bg-black hover:text-white hover:rounded-full">
+        <Link to={link}>
+          <Typography as="li" color="blue-gray" className="py-1 px-4 md:ml-0 text-lg font-bold font-sans hover:bg-black hover:text-white hover:rounded-full" onClick={() => setOpen(false)}>
             {label}
           </Typography>
         </Link>
